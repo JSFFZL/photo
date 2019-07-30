@@ -6,7 +6,6 @@ var wrapper = new Swiper(".banner",{
     },
     on:{
         "slideChange":function(){
-            
         }
     }
 })
