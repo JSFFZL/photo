@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
-   
+    <script src="js/libs/flexible.js"></script>
 
 
 </head>
+
 <body>
     <div class="audio">
         <audio src="mp3/2.mp3" id="audio"></audio>
@@ -20,18 +23,72 @@
     <div class="wrapper">
         <div class="swiper-container banner">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    
+                <div class="swiper-slide item1">
+                    <div class="logo ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s"
+                        swiper-animate-delay="0.3s">
+                        <img src="img/center/logo.png" alt="" class="ani" swiper-animate-effect="flash"
+                            swiper-animate-delay="9.5s">
+                    </div>
+                    <ul>
+                        <li class="ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="2s">爱旅行，爱摄影，爱生活…… </li>
+                        <li class="ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="4s">喜欢一切美的东西。为了记录和表达。
+                        </li>
+                        <li class="ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="6s">拍最美的风景给你，拍最美的你给自己。
+                        </li>
+                        <li class="ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="8s">记录我曾经摄影的点点滴滴。</li>
+                    </ul>
                 </div>
-                <div class="swiper-slide">2</div>
-                <div class="swiper-slide">3</div>
+                <div class="swiper-slide item2">
+                    <div class="bg"></div>
+                    <div class="header">
+                        <div class="head ani" swiper-animate-effect="fadeInRightBig">
+                            <img src="img/center/logo.png" alt="">
+                        </div>
+                        <div class="title ani" swiper-animate-effect="fadeInDownBig" swiper-animate-delay="1s">
+                            <ul>
+                                <li>摄影师：孟庆凡</li>
+                                <li>艺名：非凡主力</li>
+                                <li>职业：青春人像摄影师</li>
+                                <li>出生年月：1991.1.5</li>
+                                <li>所在城市：中国北京</li>
+                                <li>摄影兴趣：人像，旅游风光</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="2.2s">
+                        简介：照片风格理念：把青春唯美的呈现出来，照片多为颜色鲜明，人物形象优质。</div>
+                    <div class="intro ani" swiper-animate-effect="fadeInUpBig" swiper-animate-delay="3.2s">
+                        摄影经历：最初摄影是因为喜欢旅游，记录沿途的风景，生活的点滴，这也是我从小就的爱好，
+                        有了自己的相机以后更让我爱上取器景中的世界。
+                        丰富秉承着摄影不是一门技术而是一门艺术的理念。在我心中，
+                        摄影梦，一场不愿苏醒的梦。
+                    </div>
+                </div>
+                <div class="swiper-slide item3">
+                    <div class="swiper-container ad">
+                        <div class="swiper-wrapper ad-box">
+                            <div class="swiper-slide"><img src="img/center/photo/3.jpg"></div>
+                            <div class="swiper-slide"><img src="img/center/photo/4.jpg"  ></div>
+                            <div class="swiper-slide"><img src="img/center/photo/5.jpg"  ></div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="ani"  swiper-animate-effect="fadeInLeft"><img src="img/center/photo/2.jpg" class="img1"></div>
+                    <div class="ani"  swiper-animate-effect="fadeInLeft" swiper-animate-delay="1s"><img src="img/center/photo/3.jpg" class="img2" ></div>
+                    <div class="ani"  swiper-animate-effect="fadeInLeft" swiper-animate-delay="3s"><img src="img/center/photo/4.jpg" class="img3"  ></div>
+                    <div class="ani"  swiper-animate-effect="fadeInLeft" swiper-animate-delay="5s"><img src="img/center/photo/5.jpg" class="img4"  ></div> -->
+
+                </div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
     </div>
 
     <script src="js/libs/swiper.min.js"></script>
+    <script src="js/libs/swiper.animate1.0.3.min.js"></script>
     <script src="js/indexSwiper.js"></script>
     <script src="js/indexAudio.js"></script>
+    <script src="js/animation.js"></script>
 </body>
+
 </html>
