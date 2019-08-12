@@ -17,7 +17,7 @@ var lis = document.querySelectorAll(".item1 ul li");
 
 var wrapper = new Swiper(".banner", {
     direction: "vertical",
-    initialSlide: 3,
+    // initialSlide: 3,
     pagination: {
         el: ".swiper-pagination"
     },
