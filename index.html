@@ -12,10 +12,13 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <script src="js/libs/flexible.js"></script>
 
-
 </head>
 
 <body>
+    <div class="loadding">
+        <div class="load"></div>
+        正在加载...
+    </div>
     <div class="audio">
         <audio src="mp3/2.mp3" id="audio"></audio>
     </div>
@@ -42,7 +45,7 @@
                     <div class="bg"></div>
                     <div class="header">
                         <div class="head ani" swiper-animate-effect="fadeInRightBig">
-                            <img src="img/center/logo.png" alt="">
+                            <img src="img/center/logon_ame.jpg" alt="">
                         </div>
                         <div class="title ani" swiper-animate-effect="fadeInDownBig" swiper-animate-delay="1s">
                             <ul>
@@ -50,7 +53,7 @@
                                 <li>艺名：非凡主力</li>
                                 <li>职业：青春人像摄影师</li>
                                 <li>出生年月：1991.1.5</li>
-                                <li>所在城市：中国北京</li>
+                                <li>所在城市：中国-北京</li>
                                 <li>摄影兴趣：人像，旅游风光</li>
                             </ul>
                         </div>
@@ -67,17 +70,24 @@
                 <div class="swiper-slide item3">
                     <div class="swiper-container ad">
                         <div class="swiper-wrapper ad-box">
+                            <div class="swiper-slide"><img src="img/center/photo/2.jpg"></div>
+                            <div class="swiper-slide"><img src="img/center/photo/4.jpg"></div>
+                            <div class="swiper-slide"><img src="img/center/photo/5.jpg"></div>
                             <div class="swiper-slide"><img src="img/center/photo/3.jpg"></div>
-                            <div class="swiper-slide"><img src="img/center/photo/4.jpg"  ></div>
-                            <div class="swiper-slide"><img src="img/center/photo/5.jpg"  ></div>
+                            <div class="swiper-slide"><img src="img/center/photo/6.jpg"></div>
+                            <div class="swiper-slide"><img src="img/center/photo/7.jpg"></div>
+                            <div class="swiper-slide"><img src="img/center/photo/8.jpg"></div>
+                            <div class="swiper-slide"><img src="img/center/photo/9.jpg"></div>
+                            <div class="swiper-slide"><img src="img/center/photo/10.jpg"></div>
+                            <div class="swiper-slide"><img src="img/center/photo/11.jpg"></div>
+                            <div class="swiper-slide"><img src="img/center/photo/12.jpg"></div>
                         </div>
                     </div>
-
-                    <!-- <div class="ani"  swiper-animate-effect="fadeInLeft"><img src="img/center/photo/2.jpg" class="img1"></div>
-                    <div class="ani"  swiper-animate-effect="fadeInLeft" swiper-animate-delay="1s"><img src="img/center/photo/3.jpg" class="img2" ></div>
-                    <div class="ani"  swiper-animate-effect="fadeInLeft" swiper-animate-delay="3s"><img src="img/center/photo/4.jpg" class="img3"  ></div>
-                    <div class="ani"  swiper-animate-effect="fadeInLeft" swiper-animate-delay="5s"><img src="img/center/photo/5.jpg" class="img4"  ></div> -->
-
+                </div>
+                <div class="swiper-slide item4">
+                    <div class="glory">
+                        <img src="img/center/glory.png" alt="">
+                    </div>
                 </div>
             </div>
             <div class="swiper-pagination"></div>
@@ -89,6 +99,11 @@
     <script src="js/indexSwiper.js"></script>
     <script src="js/indexAudio.js"></script>
     <script src="js/animation.js"></script>
+    <script>
+        window.onload = () => {
+            document.querySelector(".loadding").style.display = "none";
+        }
+    </script>
 </body>
 
 </html>

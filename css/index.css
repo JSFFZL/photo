@@ -49,6 +49,31 @@ a:hover {
   height: 100%;
 }
 
+.loadding {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 0.48rem;
+  background: #fff;
+}
+
+.loadding .load {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(left top, #0065af, #92cf24);
+  opacity: 0.8;
+}
+
 .play {
   position: fixed;
   top: 0.26667rem;
@@ -181,6 +206,22 @@ a:hover {
 .item3 .ad .swiper-slide img {
   width: 100%;
   vertical-align: middle;
+}
+
+.item4 {
+  position: relative;
+  background: url("../img/center/bg001.png") no-repeat;
+  background-size: cover;
+}
+
+.item4 .glory {
+  margin-top: 0.66667rem;
+  width: 100%;
+  text-align: center;
+}
+
+.item4 .glory img {
+  width: 50%;
 }
 
 .swiper-pagination-bullet {
