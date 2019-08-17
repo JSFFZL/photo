@@ -191,10 +191,12 @@
         }
     }
 }
-
+.swiper-pagination{
+    right: rem(25px);
+}
 .swiper-pagination-bullet {
-    width: rem(12px) !important;
-    height: rem(12px) !important;
+    width: rem(18px) !important;
+    height: rem(18px) !important;
     margin-top: 16px !important;
 }
 

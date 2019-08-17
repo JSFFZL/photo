@@ -224,9 +224,13 @@ a:hover {
   width: 50%;
 }
 
+.swiper-pagination {
+  right: 0.33333rem;
+}
+
 .swiper-pagination-bullet {
-  width: 0.16rem !important;
-  height: 0.16rem !important;
+  width: 0.24rem !important;
+  height: 0.24rem !important;
   margin-top: 16px !important;
 }
 
